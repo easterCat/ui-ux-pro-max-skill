@@ -110,7 +110,7 @@
       text-transform: uppercase;
       color: var(--cyan);
       border: 1px solid var(--border-color);
-      padding: 4px 12px;
+      padding: 6px 12px;
       margin-bottom: 24px;
       animation: hudPulse 3s ease-in-out infinite;
       position: relative;
@@ -284,7 +284,7 @@
       text-shadow: var(--glow-cyan);
       animation: glowPulse 4s ease-in-out infinite;
       z-index: 1;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
     }
 
     .hero-subtitle {
@@ -294,7 +294,7 @@
       color: rgba(0,255,255,0.6);
       text-transform: uppercase;
       z-index: 1;
-      margin-bottom: 32px;
+      margin-bottom: 24px;
     }
 
     .hero-data {
@@ -825,12 +825,12 @@
       text-transform: uppercase;
     }
 
-    .typo-h1 { font-size: clamp(24px, 4vw, 38px); color: var(--cyan); text-shadow: var(--glow-cyan); letter-spacing: 4px; }
-    .typo-h2 { font-size: clamp(20px, 3vw, 30px); color: var(--cyan); text-shadow: 0 0 8px rgba(0,255,255,0.4); letter-spacing: 3px; }
-    .typo-h3 { font-size: clamp(16px, 2.5vw, 22px); color: rgba(0,255,255,0.85); letter-spacing: 2px; }
-    .typo-h4 { font-size: 16px; color: rgba(0,255,255,0.7); letter-spacing: 2px; }
-    .typo-h5 { font-size: 13px; color: rgba(0,255,255,0.6); letter-spacing: 2px; text-transform: uppercase; }
-    .typo-h6 { font-size: 11px; color: rgba(0,255,255,0.5); letter-spacing: 3px; text-transform: uppercase; }
+    .typo-h1 { font-size: clamp(24px, 4vw, 38px); color: var(--cyan); text-shadow: var(--glow-cyan); letter-spacing: 4px; margin-bottom: 20px; }
+    .typo-h2 { font-size: clamp(20px, 3vw, 30px); color: var(--cyan); text-shadow: 0 0 8px rgba(0,255,255,0.4); letter-spacing: 3px; margin-bottom: 20px; }
+    .typo-h3 { font-size: clamp(16px, 2.5vw, 22px); color: rgba(0,255,255,0.85); letter-spacing: 2px; margin-bottom: 20px; }
+    .typo-h4 { font-size: 16px; color: rgba(0,255,255,0.7); letter-spacing: 2px; margin-bottom: 20px; }
+    .typo-h5 { font-size: 13px; color: rgba(0,255,255,0.6); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+    .typo-h6 { font-size: 11px; color: rgba(0,255,255,0.5); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
 
     /* ============================================================
        7. COLOR SWATCHES
@@ -1093,7 +1093,7 @@
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 768px) {
-      .hero { min-height: 400px; padding: 40px 20px; }
+      .hero { min-height: 400px; padding: 48px 20px; }
       .hero-data { flex-direction: column; gap: 16px; }
       .hero-status { flex-direction: column; gap: 8px; align-items: center; }
       .hero .marker { display: none; }
